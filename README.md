@@ -11,3 +11,9 @@ war_type, outcome, intervention
 
 Regression:
 state_fatalities, nonstate_fatalities
+
+
+some varibale clearify:
+war_type: "1"-->Interstate wars
+          "2"-->colonial war
+          "3"-->"imperial war(extend the imperial)
