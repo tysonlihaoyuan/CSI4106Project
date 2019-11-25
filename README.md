@@ -23,3 +23,7 @@ war_type: "1"--> Interstate wars
           "5"--> Civil war over local issues 
           "6"--> Regional internal war 
           "7"--> Intercommunal war
+
+target file:   interstate.csv
+target prediction: outcome_
+target train and analyze: 'initiation','combat_location','combat_fatalitie'
