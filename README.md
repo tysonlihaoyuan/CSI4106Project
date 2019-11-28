@@ -9,7 +9,7 @@ https://www.kaggle.com/umichigan/interstate-wars?fbclid=IwAR008QAZiJ3HeH-P22QxL2
 'interstate.csv', 'intrastate.csv', 'extrastate.csv'
 
 Cassification: 
-outcome, initiation, intervention
+outcome, intervention
 
 Regression:
 state_fatalities, nonstate_fatalities
