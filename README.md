@@ -24,6 +24,18 @@ war_type: "1"--> Interstate wars
           "6"--> Regional internal war 
           "7"--> Intercommunal war
 
-target file:   interstate.csv
-target prediction: outcome_
-target train and analyze: 'initiation','combat_location','combat_fatalitie'
+
+train group: 0.75
+test group: 0.25 
+
+for the multiclass classcification
+
+target file: interstate.csv
+target prediction: outcome
+target train and analyze: 'side',initiation','combat_location','combat_fatalitie'
+
+for the muticalss regression
+target file: interstate.csv
+target prediction: 'combat_fatalitie'
+target train and analyze: 'side',initiation','combat_location','outcome'
+
