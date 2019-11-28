@@ -39,3 +39,5 @@ target file: interstate.csv
 target prediction: 'combat_fatalitie'
 target train and analyze: 'side',initiation','combat_location','outcome'
 
+evaluation:
+Precision, Recall, and Accuracy.
