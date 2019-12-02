@@ -41,3 +41,6 @@ target train and analyze: 'side',initiation','combat_location','outcome'
 
 evaluation:
 Precision, Recall, and Accuracy.
+
+
+method: tree,baseline(log),deep leraning(keras,categorical_crossentropy)  regression, tree baseline(log),deep leraning(keras) classication,
