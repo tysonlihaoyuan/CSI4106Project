@@ -44,3 +44,14 @@ Precision, Recall, and Accuracy.
 
 
 method: tree,baseline(log),deep leraning(keras,categorical_crossentropy)  regression, tree baseline(log),deep leraning(keras) classication,
+
+extrastate:
+1. claffication:
+          output:outcome  input: ini, combat-location, intervention,state-fata, non-stat-fata, side1-code,side2-code
+          output:intervention input: ini, combat-location, outcome, state-fata, non-stat-fata, side1-code,side2-code 
+2. regresion:  output:state-fata, output: outcome, ini, combat-location, intervention, non-stat-fata, side1-code,side2-code
+               output:non-stat-fata, output: outcome, ini, combat-location, intervention, stat-fata, side1-code,side2-code
+                    
+intrasate:
+1. classication, outcome: outcome
+2. regression, output: sideone-fata, side2 - fata
