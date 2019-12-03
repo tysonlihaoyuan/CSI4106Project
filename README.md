@@ -53,5 +53,9 @@ extrastate:
                output:non-stat-fata, output: outcome, ini, combat-location, intervention, stat-fata, side1-code,side2-code
                     
 intrasate:
-1. classication, outcome: outcome
-2. regression, output: sideone-fata, side2 - fata
+1. classication
+          output: outcome; input: ini, combat-location, side1-code,side2-code, side1_fatalities, side2_fatalities, international_war
+          output: international_war; input: ini, combat-location, side1-code,side2-code, side1_fatalities, side2_fatalities, outcome
+2. regression
+output: side1-fata; input: ini, combat-location, side1-code,side2-code, outcome, international_war, side2 -fata
+outout: side2 -fata; input:  ini, combat-location, side1-code,side2-code, outcome, international_war, side1-fata
